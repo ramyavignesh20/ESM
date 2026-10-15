@@ -1,0 +1,1 @@
+import{j as r,B as s,T as n,S as t}from"./index-DOKH5B1H.js";function c({title:o,subtitle:e,action:a}){return r.jsxs(s,{className:"page-header",children:[r.jsxs(s,{children:[r.jsx(n,{variant:"h4",fontWeight:800,children:o}),e&&r.jsx(n,{variant:"body2",color:"text.secondary",mt:.5,children:e})]}),a&&r.jsx(t,{direction:"row",children:a})]})}export{c as P};

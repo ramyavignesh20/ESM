@@ -1,0 +1,1 @@
+import{a2 as a}from"./index-DOKH5B1H.js";const o=async()=>(await a.get("/admin/tasks")).data,r=async s=>(await a.post("/admin/tasks",s)).data,c=async(s,t)=>(await a.put(`/admin/tasks/${s}`,t)).data,p=async s=>(await a.delete(`/admin/tasks/${s}`)).data;export{r as c,p as d,o as g,c as u};

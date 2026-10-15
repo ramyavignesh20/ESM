@@ -1,0 +1,1 @@
+import{a2 as a}from"./index-DOKH5B1H.js";const n=async()=>(await a.get("/notifications")).data,o=async s=>(await a.patch(`/notifications/${s}/read`)).data,r=async()=>(await a.get("/chat/messages")).data,c=async s=>(await a.post("/chat/messages",{content:s})).data;export{r as a,n as g,o as m,c as s};
